@@ -1,0 +1,83 @@
+@import './varieble';
+@import './mixin';
+
+.questions {
+  width: 700px;
+  padding: 45px 25px 25px 25px;
+  position: relative;
+  background-color: var(--color_1);
+  border-radius: 20px;
+  box-shadow: 0 5px 5px 1px var(--color_9);
+}
+
+.progress {
+  height: 10px;
+  border-radius: 30px;
+  background-color: var(--color_11);
+  margin-bottom: 25px;
+  &__value {
+    height: 100%;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(90deg, var(--color_5) 0%, var(--color_6) 100%);
+  }
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: var(--size_3);
+  color: var(--color_4);
+}
+
+ul {
+  margin: 15px 0;
+}
+
+li {
+  @include flexCenter;
+  padding: 12px 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: var(--color_8);
+  border: 1px solid var(--color_9);
+  border-radius: 5px;
+  font-size: var(--size_2);
+  font-weight: 500;
+  transition: 0.4s;
+  color: var(--color_4);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--color_7);
+  }
+}
+
+.result {
+  @include flexCenter;
+  flex-direction: column;
+  background-color: var(--color_1);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px 1px var(--color_9);
+}
+
+.restart-game {
+  border: none;
+  border-radius: 15px;
+  padding: 15px 20px;
+  background-color: var(--body);
+  font-size: var(--size_1);
+  font-weight: 900;
+  transition: 0.3s;
+  color: var(--color_1);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--color_10);
+  }
+}
+
+img {
+  width: 260px;
+  height: auto;
+  margin-bottom: 20px;
+}
