@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-questions/static/css/main.787407c6.css",
-    "main.js": "/react-questions/static/js/main.86da1b07.js",
+    "main.js": "/react-questions/static/js/main.1f625c71.js",
     "static/media/party.png": "/react-questions/static/media/party.bc5c87a28e51bcaf53c1.png",
     "index.html": "/react-questions/index.html",
     "main.787407c6.css.map": "/react-questions/static/css/main.787407c6.css.map",
-    "main.86da1b07.js.map": "/react-questions/static/js/main.86da1b07.js.map"
+    "main.1f625c71.js.map": "/react-questions/static/js/main.1f625c71.js.map"
   },
   "entrypoints": [
     "static/css/main.787407c6.css",
-    "static/js/main.86da1b07.js"
+    "static/js/main.1f625c71.js"
   ]
 }
